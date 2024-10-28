@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .imgdiv {
+    position: static;
+  }
+  .navbar1 {
+    line-height: 75px;
+    font-size: 45px;
+    font-weight: 600;
+    background-color: #36454F;
+    -webkit-text-fill-color: #f9d0b0;
+  }
+  .navbar2 {
+    
+    line-height: 75px;
+    font-size: 20px;
+    background-color: #102b49;
+    height: 75px;
+    -webkit-text-fill-color: #f9d0b0;
+    text-align: right;
+  }
+  span {
+    margin-right: 3%;
+  }
+  .imgP {
+    position: relative;
+    top: 9%; 
+     left: 11%; 
+    clip-path:circle() ;
+    z-index: 1;
+    width: 25vw;
+    height: 25vw;
+  }
+  .aboutme1{
+    position: relative;
+    top: -77%; 
+    background-color: #f9d0b0;
+    width: 25vw;
+    height: 25vw;
+    left: 60%; 
+    align-content: center;
+    align-items: center;
+      }
+    
+  .skill {
+
+    background-color: #C0C0C0;
+    padding-bottom: 2%;
+  }
+  .outercontainer {
+    display: flex;
+  }
+  .outercontainer div{
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .innercontainer {
+    background-color: #f9d0b0;
+    height: 8vw;
+    margin-left: 5%;
+    border-radius: 35px;
+    overflow-x: hidden;
+  }
+  .project {
+    background-color: #C0C0C0;
+  }
+  .achievement {
+    height: 200px;
+  }
+  .next {
+    height: 200px;
+  }
+  .contact{
+    background-color: #C0C0C0;
+  }
+ 
+
+
+  .aboutme{
+    display: inline-block;
+    width: 100vw;
+    height: 30vw;
+    background-image: url(./assets/3.jpg);
+    background-size: cover;
+    border-style: groove;
+  }
+  .footer1 {
+    width: 100vw;
+    height: 400px;
+    background-color: #36454F;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+  
+  }
+
+  .icon{
+    fill:pink;
+  }
+  .footerinner
+  {height: 55%;
+    width: 32%;
+    backface-visibility: visible;
+    top: 19%;
+    left: 34%;
+    position: relative;
+    align-items: center;
+  }
+  .footincont{
+    text-align: center;
+    padding-top: 9%;
+    color: #e5f4e3;
+    font-weight: 500;
+    font-size: larger;
+  }
+  .footer{
+    height: 117px;
+    background-color:#101314 ;
+    color: #e5f4e3;
+    text-align: center;
+   line-height: 118px;
+  }
+  ul{
+    list-style-type: disc;
+  }
+  h1{
+    scroll-padding: 17px;
+  }
+  li{
+    padding: 14px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #C0C0C0;
+    border-bottom-style: inset;
+  }
+  pre{
+    overflow-x: auto;
+    background-color: #C0C0C0;
+    
+  }
